@@ -7,7 +7,7 @@ services:
     image: quackerd/d2ray
     container_name: d2ray
     ports:
-      - 8443:8443
+      - 443:8000
     environment:
       - HOST=myvps.com
       - PORT=8443
